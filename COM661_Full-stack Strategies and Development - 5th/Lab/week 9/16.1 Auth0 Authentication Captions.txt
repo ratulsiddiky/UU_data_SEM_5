@@ -1,0 +1,52 @@
+1
+00:00:02,380 --> 00:00:11,380
+In this video, we prepare our Auth0 account so that we can integrate the authentication functionality into our application.
+
+2
+00:00:14,870 --> 00:00:19,910
+The starting point with Auth0 is the dashboard from where we can control our applications.
+
+3
+00:00:20,990 --> 00:00:26,000
+Our first task is to create a new application so we click on the blue button on the right,
+
+4
+00:00:29,000 --> 00:00:32,900
+we give it a name, in this case 'Biz FE' for front end,
+
+5
+00:00:33,830 --> 00:00:37,310
+and it's very important that we choose a single web page application as the option.
+
+6
+00:00:43,540 --> 00:00:47,230
+Then we specify that we use Angular as our front end technology,
+
+7
+00:00:54,960 --> 00:01:03,840
+and we'll return back to our list of applications, we choose our new application and from the settings tab,
+
+8
+00:01:05,610 --> 00:01:20,920
+there are three entries that we need to specify. So scroll down to the Allowed Callback URLs and we provide the root address of our front-end application,
+
+9
+00:01:22,150 --> 00:01:30,310
+so that's localhost and port 4200, and paste that into the Allowed Logout URLs
+
+10
+00:01:31,300 --> 00:01:36,160
+and also the Allowed Web Origins, and then we save our changes.
+
+11
+00:01:52,500 --> 00:01:58,110
+One final thing we need to do at this stage is to install into our application,
+
+12
+00:01:59,200 --> 00:02:05,880
+the Auth0 Angular package that makes all of the Auth0 functionality available to us...
+
+13
+00:02:09,400 --> 00:02:11,440
+and now we're ready to write some code.
+

@@ -1,0 +1,26 @@
+1. Create a folder in C drive "MongoDB"
+2. Create a folder "data", "log" 
+3. Copy below code: 
+systemLog:
+  destination: file
+  path: C:\mongodb\log\mongod.log
+  logAppend: true
+
+storage:
+  dbPath: C:\mongodb\data
+
+net:
+  bindIp: 127.0.0.1
+  port: 27017
+
+And save as mongod.cfg in c:\MongoDB
+
+4. Copy your zip folder files to MongoDB folder
+
+5. Open CMD in admin and copy this: 
+
+1. icacls "C:\mongodb" /grant Everyone:(OI)(CI)F
+
+2. C:\mongodb\bin\mongod.exe --config "C:\mongodb\mongod.cfg" --install
+
+3. net start MongoDB

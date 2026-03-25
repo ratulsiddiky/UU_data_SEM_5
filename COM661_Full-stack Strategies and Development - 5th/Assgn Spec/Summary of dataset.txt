@@ -1,0 +1,35 @@
+To achieve a 1st Class (70%+) mark for your CW2 submission, your project must "significantly exceed" the basic functionality of the lecturer's example. Your current "Summary of Dataset" for AgriGuide is already strong, but you can enhance the documentation to focus more on the front-end implementation requirements specified in the CW2 brief.
+Below is a refined version of your summary, enhanced with specific details that target the Marking Criteria (Usability, Angular Directives, and API Integration).
+
+Refined Summary: AgriGuide Smart Agriculture Dashboard
+1. Project Overview & Domain
+AgriGuide is a specialized Full Stack Angular application designed to help farmers monitor crop health and manage environmental risks. While CW1 focused on the API, this project prioritizes front-end usability and a quality user experience through data visualization and real-time alerting.
+2. Enhanced Front-End Features (Targeting 1st Class Criteria)
+To exceed the "Biz Directory" example, the Angular application will implement the following:
+* Advanced Data Interaction (All 4 HTTP Types):
+o GET: Dynamic listing of farms with complex filtering by area_name and crop_type.
+o POST: A multi-step reactive form for registering new farms and adding IoT sensor sub-documents.
+o PUT: Inline editing of farm details (e.g., updating location or crop type).
+o DELETE: Secure removal of farm records, restricted to Admin users.
+* Geospatial & Visual Dashboard:
+o Integration of a mapping library (e.g., Leaflet) to visualize the GeoJSON coordinates of different farm plots.
+o Data Visualization: Using charts to display historical sensor readings and weather trends retrieved via the /api/farms/<id>/insights aggregation pipeline.
+* Real-Time Disaster Logic:
+o A notification system that uses Angular Directives (*ngIf) to display emergency "Danger Zone" warnings if a farm's location intersects with a broadcasted alert area.
+3. Technical Implementation (Angular Specifics)
+* Authentication & Role-Based Access:
+o The app will use Route Guards to separate the Farmer dashboard from the Admin alert broadcast tools.
+o JWT tokens will be managed via an HTTP Interceptor to ensure secure communication with the backend.
+* Demonstration of Directives:
+o *ngFor: Iterating through weather_logs and sensors arrays.
+o *ngIf: Conditionally showing the "Sync Weather" button only for the farm owner.
+o Custom Pipes: A pipe to format raw sensor data (e.g., moisture percentages) with color-coding for "Warning" levels.
+4. Testing & Documentation Strategy
+* Automated Testing: The submission will include Unit Tests for the FarmService and End-to-End (E2E) tests for the login and farm registration flows to meet the "Evidence of automated testing" criteria.
+* Documentation: Technical docs will be generated using Compodoc, and a separate PDF will summarize all API endpoints used, specifically highlighting any new aggregation or geospatial endpoints added for CW2.
+
+Key Improvements Made for your CW2 Submission:
+1. Shifted Focus to the Front-End: The original summary was backend-heavy; this version explicitly mentions Reactive Forms, Route Guards, and HTTP Interceptors.
+2. Directly Addressed the Rubric: I included specific mentions of Angular Directives and Automated Testing, which are mandatory for high marks.
+3. Defined "Beyond the Example": Explicitly stated how using GeoJSON and Aggregation Pipelines makes your app more complex than the lecturer's "Biz Directory".
+

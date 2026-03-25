@@ -1,0 +1,3578 @@
+[{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489782"
+  },
+  "name": "Biz 1 Test",
+  "town": "Manchester",
+  "rating": 5,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67c4ab4a5b2f19a4b579ff17"
+      },
+      "username": "Test 2",
+      "comment": "This is bad",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67c4ab555b2f19a4b579ff18"
+      },
+      "username": "Test 3",
+      "comment": "This is ok",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67c4ab5e5b2f19a4b579ff19"
+      },
+      "username": "Test 4",
+      "comment": "Excellent",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67c4ad875703f945259bb106"
+      },
+      "username": "Test 5",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdb2972bb3ba58c432a304"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdb2a92bb3ba58c432a305"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdb34c9ec44b260c64b984"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.45045476,
+      -2.22836246
+    ]
+  },
+  "num_employees": 98,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 176463
+    },
+    {
+      "year": "2023",
+      "gross": 78227
+    },
+    {
+      "year": "2024",
+      "gross": -142025
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489786"
+  },
+  "name": "Biz 5",
+  "town": "Ilford",
+  "rating": 1,
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67bef177046ebdbbe06c86b7"
+      },
+      "username": "Sihan",
+      "comment": "Good",
+      "stars": "3"
+    }
+  ],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.5601,
+      0.08615
+    ]
+  },
+  "num_employees": 59,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 258182
+    },
+    {
+      "year": "2023",
+      "gross": -147645
+    },
+    {
+      "year": "2024",
+      "gross": 298641
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489787"
+  },
+  "name": "Biz 6",
+  "town": "London",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.53793068,
+      -0.2739458
+    ]
+  },
+  "num_employees": 3,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -412540
+    },
+    {
+      "year": "2023",
+      "gross": 436873
+    },
+    {
+      "year": "2024",
+      "gross": 208383
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489788"
+  },
+  "name": "Biz 7",
+  "town": "Liverpool",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.38586344,
+      -2.8773126700000002
+    ]
+  },
+  "num_employees": 90,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -262232
+    },
+    {
+      "year": "2023",
+      "gross": -88768
+    },
+    {
+      "year": "2024",
+      "gross": 399639
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489789"
+  },
+  "name": "Biz 8",
+  "town": "Liverpool",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.41310164,
+      -2.89382875
+    ]
+  },
+  "num_employees": 87,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 242435
+    },
+    {
+      "year": "2023",
+      "gross": 25859
+    },
+    {
+      "year": "2024",
+      "gross": 404416
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048978a"
+  },
+  "name": "Biz 9",
+  "town": "Richmond",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.483000000000004,
+      -0.28105
+    ]
+  },
+  "num_employees": 16,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 142482
+    },
+    {
+      "year": "2023",
+      "gross": 167106
+    },
+    {
+      "year": "2024",
+      "gross": 243613
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048978b"
+  },
+  "name": "Biz 10",
+  "town": "York",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.99051,
+      -1.0980882299999999
+    ]
+  },
+  "num_employees": 88,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -259357
+    },
+    {
+      "year": "2023",
+      "gross": -389275
+    },
+    {
+      "year": "2024",
+      "gross": 175895
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048978c"
+  },
+  "name": "Biz 11",
+  "town": "Belfast",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.6423,
+      -5.8567
+    ]
+  },
+  "num_employees": 39,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 178089
+    },
+    {
+      "year": "2023",
+      "gross": 349246
+    },
+    {
+      "year": "2024",
+      "gross": -210881
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048978d"
+  },
+  "name": "Biz 12",
+  "town": "Richmond",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.4844,
+      -0.3025
+    ]
+  },
+  "num_employees": 55,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 287110
+    },
+    {
+      "year": "2023",
+      "gross": -53800
+    },
+    {
+      "year": "2024",
+      "gross": 391043
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048978e"
+  },
+  "name": "Biz 13",
+  "town": "London",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.6716183,
+      0.06381020000000004
+    ]
+  },
+  "num_employees": 44,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -488757
+    },
+    {
+      "year": "2023",
+      "gross": 53978
+    },
+    {
+      "year": "2024",
+      "gross": 389299
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048978f"
+  },
+  "name": "Biz 14",
+  "town": "Bristol",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.40408145,
+      -2.56466548
+    ]
+  },
+  "num_employees": 71,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 124232
+    },
+    {
+      "year": "2023",
+      "gross": -379945
+    },
+    {
+      "year": "2024",
+      "gross": -290636
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489790"
+  },
+  "name": "Biz 15",
+  "town": "York",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.927755489999996,
+      -1.1531160599999999
+    ]
+  },
+  "num_employees": 92,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -310959
+    },
+    {
+      "year": "2023",
+      "gross": -8882
+    },
+    {
+      "year": "2024",
+      "gross": 9052
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489791"
+  },
+  "name": "Biz 16",
+  "town": "Liverpool",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.453051,
+      -2.97228013
+    ]
+  },
+  "num_employees": 47,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -138164
+    },
+    {
+      "year": "2023",
+      "gross": 29180
+    },
+    {
+      "year": "2024",
+      "gross": 413551
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489792"
+  },
+  "name": "Biz 17",
+  "town": "Richmond",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.420700000000004,
+      -0.2908
+    ]
+  },
+  "num_employees": 3,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -14896
+    },
+    {
+      "year": "2023",
+      "gross": -305569
+    },
+    {
+      "year": "2024",
+      "gross": -289809
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489793"
+  },
+  "name": "Biz 18",
+  "town": "Ilford",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.54125,
+      0.09455
+    ]
+  },
+  "num_employees": 78,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 138368
+    },
+    {
+      "year": "2023",
+      "gross": 107642
+    },
+    {
+      "year": "2024",
+      "gross": -237028
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489794"
+  },
+  "name": "Biz 19",
+  "town": "Portsmouth",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      50.824652910000005,
+      -1.06309571
+    ]
+  },
+  "num_employees": 64,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 204919
+    },
+    {
+      "year": "2023",
+      "gross": 14917
+    },
+    {
+      "year": "2024",
+      "gross": -45253
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489795"
+  },
+  "name": "Biz 20",
+  "town": "Portsmouth",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      50.79602652,
+      -1.08691349
+    ]
+  },
+  "num_employees": 74,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 246594
+    },
+    {
+      "year": "2023",
+      "gross": -27236
+    },
+    {
+      "year": "2024",
+      "gross": 46325
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489796"
+  },
+  "name": "Biz 21",
+  "town": "Belfast",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5565,
+      -6.007899999999999
+    ]
+  },
+  "num_employees": 34,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 168749
+    },
+    {
+      "year": "2023",
+      "gross": -444544
+    },
+    {
+      "year": "2024",
+      "gross": 32198
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489797"
+  },
+  "name": "Biz 22",
+  "town": "Birmingham",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.54939375,
+      -1.82559191
+    ]
+  },
+  "num_employees": 90,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -396547
+    },
+    {
+      "year": "2023",
+      "gross": -34151
+    },
+    {
+      "year": "2024",
+      "gross": 330230
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489798"
+  },
+  "name": "Biz 23",
+  "town": "Birmingham",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.48580524,
+      -2.01474089
+    ]
+  },
+  "num_employees": 2,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 131760
+    },
+    {
+      "year": "2023",
+      "gross": -276418
+    },
+    {
+      "year": "2024",
+      "gross": 219435
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e720489799"
+  },
+  "name": "Biz 24",
+  "town": "Birmingham",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.5376181,
+      -1.8316934900000001
+    ]
+  },
+  "num_employees": 75,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 434262
+    },
+    {
+      "year": "2023",
+      "gross": -127873
+    },
+    {
+      "year": "2024",
+      "gross": 218354
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048979a"
+  },
+  "name": "Biz 25",
+  "town": "Liverpool",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.42944456,
+      -3.00531229
+    ]
+  },
+  "num_employees": 21,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -482554
+    },
+    {
+      "year": "2023",
+      "gross": 356874
+    },
+    {
+      "year": "2024",
+      "gross": -408705
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048979b"
+  },
+  "name": "Biz 26",
+  "town": "London",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.6716183,
+      0.08914189999999989
+    ]
+  },
+  "num_employees": 88,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -44594
+    },
+    {
+      "year": "2023",
+      "gross": -354587
+    },
+    {
+      "year": "2024",
+      "gross": 165532
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048979c"
+  },
+  "name": "Biz 27",
+  "town": "Belfast",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5741,
+      -5.9575
+    ]
+  },
+  "num_employees": 48,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -60769
+    },
+    {
+      "year": "2023",
+      "gross": 310590
+    },
+    {
+      "year": "2024",
+      "gross": 435004
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048979d"
+  },
+  "name": "Biz 28",
+  "town": "Liverpool",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.482105080000004,
+      -2.9041513
+    ]
+  },
+  "num_employees": 91,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 1056
+    },
+    {
+      "year": "2023",
+      "gross": -468445
+    },
+    {
+      "year": "2024",
+      "gross": -259746
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048979e"
+  },
+  "name": "Biz 29",
+  "town": "Belfast",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5741,
+      -5.9742999999999995
+    ]
+  },
+  "num_employees": 47,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -449428
+    },
+    {
+      "year": "2023",
+      "gross": 139312
+    },
+    {
+      "year": "2024",
+      "gross": -77204
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e72048979f"
+  },
+  "name": "Biz 30",
+  "town": "Liverpool",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.42218104,
+      -2.97640915
+    ]
+  },
+  "num_employees": 11,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 283447
+    },
+    {
+      "year": "2023",
+      "gross": -87110
+    },
+    {
+      "year": "2024",
+      "gross": -311356
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a0"
+  },
+  "name": "Biz 31",
+  "town": "Liverpool",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.331387039999996,
+      -2.88144169
+    ]
+  },
+  "num_employees": 52,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 221250
+    },
+    {
+      "year": "2023",
+      "gross": 147765
+    },
+    {
+      "year": "2024",
+      "gross": -289405
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a1"
+  },
+  "name": "Biz 32",
+  "town": "Bristol",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.44596435,
+      -2.7018019900000003
+    ]
+  },
+  "num_employees": 84,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 417189
+    },
+    {
+      "year": "2023",
+      "gross": -330859
+    },
+    {
+      "year": "2024",
+      "gross": -426134
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a2"
+  },
+  "name": "Biz 33",
+  "town": "London",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.49336814,
+      -0.42593600000000004
+    ]
+  },
+  "num_employees": 24,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -14230
+    },
+    {
+      "year": "2023",
+      "gross": 475235
+    },
+    {
+      "year": "2024",
+      "gross": 395506
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a3"
+  },
+  "name": "Biz 34",
+  "town": "Manchester",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.38699032,
+      -2.25825986
+    ]
+  },
+  "num_employees": 94,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 281418
+    },
+    {
+      "year": "2023",
+      "gross": -142191
+    },
+    {
+      "year": "2024",
+      "gross": 164271
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a4"
+  },
+  "name": "Biz 35",
+  "town": "Birmingham",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.57530018,
+      -1.98423299
+    ]
+  },
+  "num_employees": 65,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -113130
+    },
+    {
+      "year": "2023",
+      "gross": 398508
+    },
+    {
+      "year": "2024",
+      "gross": -472108
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a5"
+  },
+  "name": "Biz 36",
+  "town": "Belfast",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5554,
+      -5.8189
+    ]
+  },
+  "num_employees": 5,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 285359
+    },
+    {
+      "year": "2023",
+      "gross": -331401
+    },
+    {
+      "year": "2024",
+      "gross": -126534
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a6"
+  },
+  "name": "Biz 37",
+  "town": "York",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.95947755,
+      -1.1502941199999999
+    ]
+  },
+  "num_employees": 77,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 168811
+    },
+    {
+      "year": "2023",
+      "gross": -432059
+    },
+    {
+      "year": "2024",
+      "gross": -166343
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a7"
+  },
+  "name": "Biz 38",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.92982432,
+      -1.13477345
+    ]
+  },
+  "num_employees": 34,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 44029
+    },
+    {
+      "year": "2023",
+      "gross": -188049
+    },
+    {
+      "year": "2024",
+      "gross": -312598
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a8"
+  },
+  "name": "Biz 39",
+  "town": "Belfast",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.562,
+      -5.8231
+    ]
+  },
+  "num_employees": 56,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -84162
+    },
+    {
+      "year": "2023",
+      "gross": -437990
+    },
+    {
+      "year": "2024",
+      "gross": -388897
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897a9"
+  },
+  "name": "Biz 40",
+  "town": "York",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.93189315,
+      -1.1502941199999999
+    ]
+  },
+  "num_employees": 14,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -232767
+    },
+    {
+      "year": "2023",
+      "gross": -254050
+    },
+    {
+      "year": "2024",
+      "gross": -277659
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897aa"
+  },
+  "name": "Biz 41",
+  "town": "Liverpool",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.38223168,
+      -2.87937718
+    ]
+  },
+  "num_employees": 8,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 63305
+    },
+    {
+      "year": "2023",
+      "gross": -237579
+    },
+    {
+      "year": "2024",
+      "gross": -416401
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ab"
+  },
+  "name": "Biz 42",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.96844248,
+      -1.05434816
+    ]
+  },
+  "num_employees": 38,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 345682
+    },
+    {
+      "year": "2023",
+      "gross": 260554
+    },
+    {
+      "year": "2024",
+      "gross": -442193
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ac"
+  },
+  "name": "Biz 43",
+  "town": "Ilford",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.5809,
+      0.02735
+    ]
+  },
+  "num_employees": 71,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 227704
+    },
+    {
+      "year": "2023",
+      "gross": 131115
+    },
+    {
+      "year": "2024",
+      "gross": 45858
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ad"
+  },
+  "name": "Biz 44",
+  "town": "Manchester",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.35423448,
+      -2.440634
+    ]
+  },
+  "num_employees": 36,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 420322
+    },
+    {
+      "year": "2023",
+      "gross": -275535
+    },
+    {
+      "year": "2024",
+      "gross": -206947
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ae"
+  },
+  "name": "Biz 45",
+  "town": "London",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.3070157,
+      -0.42593600000000004
+    ]
+  },
+  "num_employees": 90,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 440493
+    },
+    {
+      "year": "2023",
+      "gross": -114748
+    },
+    {
+      "year": "2024",
+      "gross": 481743
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897af"
+  },
+  "name": "Biz 46",
+  "town": "London",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.3880385,
+      0.17358090000000004
+    ]
+  },
+  "num_employees": 7,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 194129
+    },
+    {
+      "year": "2023",
+      "gross": 286360
+    },
+    {
+      "year": "2024",
+      "gross": 480752
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b0"
+  },
+  "name": "Biz 47",
+  "town": "Bristol",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.463210249999996,
+      -2.54289778
+    ]
+  },
+  "num_employees": 28,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 96183
+    },
+    {
+      "year": "2023",
+      "gross": -469399
+    },
+    {
+      "year": "2024",
+      "gross": 208172
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b1"
+  },
+  "name": "Biz 48",
+  "town": "Liverpool",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.471209800000004,
+      -3.04453798
+    ]
+  },
+  "num_employees": 82,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -497157
+    },
+    {
+      "year": "2023",
+      "gross": 371635
+    },
+    {
+      "year": "2024",
+      "gross": -211000
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b2"
+  },
+  "name": "Biz 49",
+  "town": "Belfast",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.6115,
+      -5.9868999999999994
+    ]
+  },
+  "num_employees": 67,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -454825
+    },
+    {
+      "year": "2023",
+      "gross": 239899
+    },
+    {
+      "year": "2024",
+      "gross": 416111
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b3"
+  },
+  "name": "Biz 50",
+  "town": "Birmingham",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.59885148,
+      -2.03609642
+    ]
+  },
+  "num_employees": 86,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 179304
+    },
+    {
+      "year": "2023",
+      "gross": 390741
+    },
+    {
+      "year": "2024",
+      "gross": 384938
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b4"
+  },
+  "name": "Biz 51",
+  "town": "London",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.63515804,
+      -0.43437990000000004
+    ]
+  },
+  "num_employees": 6,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 30066
+    },
+    {
+      "year": "2023",
+      "gross": -166764
+    },
+    {
+      "year": "2024",
+      "gross": -88517
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b5"
+  },
+  "name": "Biz 52",
+  "town": "Liverpool",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.48573684,
+      -2.8835062000000002
+    ]
+  },
+  "num_employees": 50,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -234938
+    },
+    {
+      "year": "2023",
+      "gross": 461633
+    },
+    {
+      "year": "2024",
+      "gross": -494385
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b6"
+  },
+  "name": "Biz 53",
+  "town": "Portsmouth",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      50.78737203,
+      -1.09655402
+    ]
+  },
+  "num_employees": 64,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 126206
+    },
+    {
+      "year": "2023",
+      "gross": -72227
+    },
+    {
+      "year": "2024",
+      "gross": 334675
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b7"
+  },
+  "name": "Biz 54",
+  "town": "Richmond",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.483000000000004,
+      -0.29145
+    ]
+  },
+  "num_employees": 58,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -443118
+    },
+    {
+      "year": "2023",
+      "gross": 298139
+    },
+    {
+      "year": "2024",
+      "gross": -455508
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b8"
+  },
+  "name": "Biz 55",
+  "town": "Manchester",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.45045476,
+      -2.37784946
+    ]
+  },
+  "num_employees": 22,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -401607
+    },
+    {
+      "year": "2023",
+      "gross": -471202
+    },
+    {
+      "year": "2024",
+      "gross": -121199
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897b9"
+  },
+  "name": "Biz 56",
+  "town": "Richmond",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.4774,
+      -0.31160000000000004
+    ]
+  },
+  "num_employees": 34,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 116973
+    },
+    {
+      "year": "2023",
+      "gross": -144960
+    },
+    {
+      "year": "2024",
+      "gross": 76736
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ba"
+  },
+  "name": "Biz 57",
+  "town": "Liverpool",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.3350188,
+      -2.86699012
+    ]
+  },
+  "num_employees": 11,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -348215
+    },
+    {
+      "year": "2023",
+      "gross": 117165
+    },
+    {
+      "year": "2024",
+      "gross": 385202
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897bb"
+  },
+  "name": "Biz 58",
+  "town": "Belfast",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.6027,
+      -5.8588
+    ]
+  },
+  "num_employees": 44,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -53115
+    },
+    {
+      "year": "2023",
+      "gross": -116489
+    },
+    {
+      "year": "2024",
+      "gross": 13335
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897bc"
+  },
+  "name": "Biz 59",
+  "town": "London",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.35562938,
+      -0.11351170000000005
+    ]
+  },
+  "num_employees": 94,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 132532
+    },
+    {
+      "year": "2023",
+      "gross": -195147
+    },
+    {
+      "year": "2024",
+      "gross": 494776
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897bd"
+  },
+  "name": "Biz 60",
+  "town": "Richmond",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.470400000000005,
+      -0.2817
+    ]
+  },
+  "num_employees": 55,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -403990
+    },
+    {
+      "year": "2023",
+      "gross": 316581
+    },
+    {
+      "year": "2024",
+      "gross": -402728
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897be"
+  },
+  "name": "Biz 61",
+  "town": "Bristol",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.475528749999995,
+      -2.52330685
+    ]
+  },
+  "num_employees": 18,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 123237
+    },
+    {
+      "year": "2023",
+      "gross": 469366
+    },
+    {
+      "year": "2024",
+      "gross": -340409
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897bf"
+  },
+  "name": "Biz 62",
+  "town": "Belfast",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5708,
+      -5.9596
+    ]
+  },
+  "num_employees": 49,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -34794
+    },
+    {
+      "year": "2023",
+      "gross": -275477
+    },
+    {
+      "year": "2024",
+      "gross": 466188
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c0"
+  },
+  "name": "Biz 63",
+  "town": "Richmond",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.4851,
+      -0.27325
+    ]
+  },
+  "num_employees": 54,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 1076
+    },
+    {
+      "year": "2023",
+      "gross": -233863
+    },
+    {
+      "year": "2024",
+      "gross": -220755
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c1"
+  },
+  "name": "Biz 64",
+  "town": "Birmingham",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.60591687,
+      -1.96592825
+    ]
+  },
+  "num_employees": 82,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 359813
+    },
+    {
+      "year": "2023",
+      "gross": 435953
+    },
+    {
+      "year": "2024",
+      "gross": 417304
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c2"
+  },
+  "name": "Biz 65",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.97947624,
+      -1.0261287600000002
+    ]
+  },
+  "num_employees": 11,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -233437
+    },
+    {
+      "year": "2023",
+      "gross": 352412
+    },
+    {
+      "year": "2024",
+      "gross": 70300
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c3"
+  },
+  "name": "Biz 66",
+  "town": "Liverpool",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.433076320000005,
+      -3.0073768
+    ]
+  },
+  "num_employees": 93,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 191330
+    },
+    {
+      "year": "2023",
+      "gross": 110803
+    },
+    {
+      "year": "2024",
+      "gross": 229996
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c4"
+  },
+  "name": "Biz 67",
+  "town": "Ilford",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.5822,
+      0.07355
+    ]
+  },
+  "num_employees": 24,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 397933
+    },
+    {
+      "year": "2023",
+      "gross": -180926
+    },
+    {
+      "year": "2024",
+      "gross": 429512
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c5"
+  },
+  "name": "Biz 68",
+  "town": "Ilford",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.5302,
+      0.05885
+    ]
+  },
+  "num_employees": 40,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 467527
+    },
+    {
+      "year": "2023",
+      "gross": -5401
+    },
+    {
+      "year": "2024",
+      "gross": 71863
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c6"
+  },
+  "name": "Biz 69",
+  "town": "Bristol",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.45089175,
+      -2.67568075
+    ]
+  },
+  "num_employees": 86,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -265040
+    },
+    {
+      "year": "2023",
+      "gross": -29039
+    },
+    {
+      "year": "2024",
+      "gross": -225693
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c7"
+  },
+  "name": "Biz 70",
+  "town": "Richmond",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.4501,
+      -0.30770000000000003
+    ]
+  },
+  "num_employees": 14,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 291327
+    },
+    {
+      "year": "2023",
+      "gross": 124972
+    },
+    {
+      "year": "2024",
+      "gross": -328406
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c8"
+  },
+  "name": "Biz 71",
+  "town": "Liverpool",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.39494284,
+      -2.88763522
+    ]
+  },
+  "num_employees": 89,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -472076
+    },
+    {
+      "year": "2023",
+      "gross": -25740
+    },
+    {
+      "year": "2024",
+      "gross": -444125
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897c9"
+  },
+  "name": "Biz 72",
+  "town": "Ilford",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.56075,
+      0.0935
+    ]
+  },
+  "num_employees": 68,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 39949
+    },
+    {
+      "year": "2023",
+      "gross": -3039
+    },
+    {
+      "year": "2024",
+      "gross": -170228
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ca"
+  },
+  "name": "Biz 73",
+  "town": "Portsmouth",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      50.83597032,
+      -1.07160206
+    ]
+  },
+  "num_employees": 7,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 465823
+    },
+    {
+      "year": "2023",
+      "gross": 395107
+    },
+    {
+      "year": "2024",
+      "gross": 131717
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897cb"
+  },
+  "name": "Biz 74",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.94637496,
+      -1.05999204
+    ]
+  },
+  "num_employees": 90,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -423830
+    },
+    {
+      "year": "2023",
+      "gross": 168162
+    },
+    {
+      "year": "2024",
+      "gross": 57351
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897cc"
+  },
+  "name": "Biz 75",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.96430482,
+      -1.08821144
+    ]
+  },
+  "num_employees": 58,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 409613
+    },
+    {
+      "year": "2023",
+      "gross": -420673
+    },
+    {
+      "year": "2024",
+      "gross": 335469
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897cd"
+  },
+  "name": "Biz 76",
+  "town": "Belfast",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.6258,
+      -6.01
+    ]
+  },
+  "num_employees": 40,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 306610
+    },
+    {
+      "year": "2023",
+      "gross": 419127
+    },
+    {
+      "year": "2024",
+      "gross": -148412
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897ce"
+  },
+  "name": "Biz 77",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.96499443,
+      -1.09385532
+    ]
+  },
+  "num_employees": 11,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 317255
+    },
+    {
+      "year": "2023",
+      "gross": -294565
+    },
+    {
+      "year": "2024",
+      "gross": -212336
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897cf"
+  },
+  "name": "Biz 78",
+  "town": "Ilford",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.5406,
+      0.02525
+    ]
+  },
+  "num_employees": 22,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -471994
+    },
+    {
+      "year": "2023",
+      "gross": 87910
+    },
+    {
+      "year": "2024",
+      "gross": -348549
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d0"
+  },
+  "name": "Biz 79",
+  "town": "London",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.53387954,
+      -0.07973610000000003
+    ]
+  },
+  "num_employees": 95,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 32735
+    },
+    {
+      "year": "2023",
+      "gross": 25441
+    },
+    {
+      "year": "2024",
+      "gross": 447991
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d1"
+  },
+  "name": "Biz 80",
+  "town": "Portsmouth",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      50.81200404,
+      -1.0988223799999999
+    ]
+  },
+  "num_employees": 30,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -117711
+    },
+    {
+      "year": "2023",
+      "gross": 395092
+    },
+    {
+      "year": "2024",
+      "gross": -56547
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d2"
+  },
+  "name": "Biz 81",
+  "town": "Bristol",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.492774649999994,
+      -2.72792323
+    ]
+  },
+  "num_employees": 14,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -43102
+    },
+    {
+      "year": "2023",
+      "gross": 262533
+    },
+    {
+      "year": "2024",
+      "gross": 81694
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d3"
+  },
+  "name": "Biz 82",
+  "town": "Portsmouth",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      50.83663605,
+      -1.05742481
+    ]
+  },
+  "num_employees": 83,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -77972
+    },
+    {
+      "year": "2023",
+      "gross": -175148
+    },
+    {
+      "year": "2024",
+      "gross": 423078
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d4"
+  },
+  "name": "Biz 83",
+  "town": "Belfast",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.631299999999996,
+      -5.8084
+    ]
+  },
+  "num_employees": 4,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 248867
+    },
+    {
+      "year": "2023",
+      "gross": -269106
+    },
+    {
+      "year": "2024",
+      "gross": 272869
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d5"
+  },
+  "name": "Biz 84",
+  "town": "Birmingham",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.47402959,
+      -1.9476235100000001
+    ]
+  },
+  "num_employees": 78,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 28138
+    },
+    {
+      "year": "2023",
+      "gross": 435525
+    },
+    {
+      "year": "2024",
+      "gross": -195391
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d6"
+  },
+  "name": "Biz 85",
+  "town": "Birmingham",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.43870264,
+      -1.7554237400000001
+    ]
+  },
+  "num_employees": 81,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 47041
+    },
+    {
+      "year": "2023",
+      "gross": 145117
+    },
+    {
+      "year": "2024",
+      "gross": 81924
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d7"
+  },
+  "name": "Biz 86",
+  "town": "Richmond",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.436800000000005,
+      -0.3103
+    ]
+  },
+  "num_employees": 36,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 456077
+    },
+    {
+      "year": "2023",
+      "gross": -388425
+    },
+    {
+      "year": "2024",
+      "gross": -441087
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d8"
+  },
+  "name": "Biz 87",
+  "town": "Birmingham",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.372759,
+      -1.7676269
+    ]
+  },
+  "num_employees": 4,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -325974
+    },
+    {
+      "year": "2023",
+      "gross": -194256
+    },
+    {
+      "year": "2024",
+      "gross": 90693
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897d9"
+  },
+  "name": "Biz 88",
+  "town": "Ilford",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.57115,
+      0.03365
+    ]
+  },
+  "num_employees": 19,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -471539
+    },
+    {
+      "year": "2023",
+      "gross": -49104
+    },
+    {
+      "year": "2024",
+      "gross": 278470
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897da"
+  },
+  "name": "Biz 89",
+  "town": "London",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.3272714,
+      0.2917954999999999
+    ]
+  },
+  "num_employees": 78,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 142564
+    },
+    {
+      "year": "2023",
+      "gross": -50523
+    },
+    {
+      "year": "2024",
+      "gross": 176120
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897db"
+  },
+  "name": "Biz 90",
+  "town": "Richmond",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.4795,
+      -0.27845000000000003
+    ]
+  },
+  "num_employees": 54,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -273761
+    },
+    {
+      "year": "2023",
+      "gross": 267027
+    },
+    {
+      "year": "2024",
+      "gross": -496460
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897dc"
+  },
+  "name": "Biz 91",
+  "town": "York",
+  "rating": 1,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.97809702,
+      -1.03741652
+    ]
+  },
+  "num_employees": 32,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -35417
+    },
+    {
+      "year": "2023",
+      "gross": 94537
+    },
+    {
+      "year": "2024",
+      "gross": 162103
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897dd"
+  },
+  "name": "Biz 92",
+  "town": "Bristol",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.434877699999994,
+      -2.58643318
+    ]
+  },
+  "num_employees": 32,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 225951
+    },
+    {
+      "year": "2023",
+      "gross": 126469
+    },
+    {
+      "year": "2024",
+      "gross": -425035
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897de"
+  },
+  "name": "Biz 93",
+  "town": "London",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.59869778,
+      -0.3668287
+    ]
+  },
+  "num_employees": 83,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -396430
+    },
+    {
+      "year": "2023",
+      "gross": -266432
+    },
+    {
+      "year": "2024",
+      "gross": -409932
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897df"
+  },
+  "name": "Biz 94",
+  "town": "Belfast",
+  "rating": 4,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5884,
+      -5.8693
+    ]
+  },
+  "num_employees": 86,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 48141
+    },
+    {
+      "year": "2023",
+      "gross": -308217
+    },
+    {
+      "year": "2024",
+      "gross": -293289
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897e0"
+  },
+  "name": "Biz 95",
+  "town": "York",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.96568404,
+      -1.06140301
+    ]
+  },
+  "num_employees": 57,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -263614
+    },
+    {
+      "year": "2023",
+      "gross": -174741
+    },
+    {
+      "year": "2024",
+      "gross": 191722
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897e1"
+  },
+  "name": "Biz 96",
+  "town": "Bristol",
+  "rating": 5,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.437341399999994,
+      -2.56031194
+    ]
+  },
+  "num_employees": 49,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": 413497
+    },
+    {
+      "year": "2023",
+      "gross": 301428
+    },
+    {
+      "year": "2024",
+      "gross": 420795
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897e2"
+  },
+  "name": "Biz 97",
+  "town": "Birmingham",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      52.55410401,
+      -1.84999823
+    ]
+  },
+  "num_employees": 61,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -118531
+    },
+    {
+      "year": "2023",
+      "gross": 87608
+    },
+    {
+      "year": "2024",
+      "gross": -258032
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897e3"
+  },
+  "name": "Biz 98",
+  "town": "Belfast",
+  "rating": 3,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      54.5642,
+      -5.9092
+    ]
+  },
+  "num_employees": 55,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -391109
+    },
+    {
+      "year": "2023",
+      "gross": -36155
+    },
+    {
+      "year": "2024",
+      "gross": -185383
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bcbaa65dcea8e7204897e4"
+  },
+  "name": "Biz 99",
+  "town": "Bristol",
+  "rating": 2,
+  "reviews": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.4693695,
+      -2.56031194
+    ]
+  },
+  "num_employees": 79,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -428240
+    },
+    {
+      "year": "2023",
+      "gross": -23804
+    },
+    {
+      "year": "2024",
+      "gross": 402253
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67bf08c752b5d87148233789"
+  },
+  "name": "test",
+  "town": "London",
+  "rating": "3",
+  "review": [],
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      51.5095727,
+      -0.20639460000000004
+    ]
+  },
+  "num_employees": 98,
+  "profit": [
+    {
+      "year": "2022",
+      "gross": -467765
+    },
+    {
+      "year": "2023",
+      "gross": 208091
+    },
+    {
+      "year": "2024",
+      "gross": 472083
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c4af425703f945259bb107"
+  },
+  "name": "Test 1",
+  "town": "London",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4af495703f945259bb109"
+  },
+  "name": "Test 3",
+  "town": "London",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4af515703f945259bb10a"
+  },
+  "name": "Test 4",
+  "town": "London",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4b140c38b7209de2a3cfc"
+  },
+  "name": "Test 5",
+  "town": "London",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4b24a7349279a79243f25"
+  },
+  "name": "Test 6",
+  "town": "London",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4b647e8e487f09a4e9c0a"
+  },
+  "name": "Test 8",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4b65be8e487f09a4e9c0c"
+  },
+  "name": "Test 9",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67c4c0cdcc5afac9753a3478"
+  },
+  "name": "Test 10",
+  "town": "Barking",
+  "rating": "4",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67c4c1c1ea8b229dc708ac34"
+      },
+      "username": null,
+      "comment": "this is good",
+      "stars": 5
+    },
+    {
+      "_id": {
+        "$oid": "67c4c238fa82060f755ea792"
+      },
+      "username": null,
+      "comment": "this is good",
+      "stars": 5
+    },
+    {
+      "_id": {
+        "$oid": "67c4c686be16e37d838918c5"
+      },
+      "username": "Lisa",
+      "comment": "this is good as",
+      "stars": 5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67cda70df3dae640ca16302e"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda798f3dae640ca16302f"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda82835b03e4bf7d5c011"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda84835b03e4bf7d5c012"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda8991cfcf629afa678a3"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda9041cfcf629afa678a4"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda9431cfcf629afa678a5"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda9851cfcf629afa678a6"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cda9d97cd107883f8e4f9c"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cdaa417cd107883f8e4f9d"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cdab6546f526d6aee0e009"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cdad1a46f526d6aee0e00a"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67cdbaf9bc0be57fdb4a28d8"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67cdb49a9ec44b260c64b985"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cdb4de9ec44b260c64b986"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cdb8fabc0be57fdb4a28d7"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67cdbb05bc0be57fdb4a28d9"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67cdbb0ebc0be57fdb4a28da"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdbb30bc0be57fdb4a28db"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdbb46bc0be57fdb4a28dc"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdbb4cbc0be57fdb4a28dd"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdbb8193e071cd3a0545f7"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67cdbba993e071cd3a0545f8"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67ce1ddf838688fdb72d3581"
+  },
+  "name": "Test 13",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67ce1e20838688fdb72d3582"
+  },
+  "name": "Test 13",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67ce1f1ea025c6a096b95ef5"
+  },
+  "name": "Test 13",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67ce1f23a025c6a096b95ef6"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67ce1f40a025c6a096b95ef7"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67ce1f82a025c6a096b95ef8"
+  },
+  "name": "Test 10",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67ce1f9da025c6a096b95ef9"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67ce1fdba025c6a096b95efa"
+  },
+  "name": "Test 13",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67ce1fdba025c6a096b95efb"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67ceb745a80c31f8cf4bbc76"
+  },
+  "name": "Test 15",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67ceb7bba80c31f8cf4bbc77"
+      },
+      "username": "Test 10",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67ceb7eca80c31f8cf4bbc78"
+  },
+  "name": "Test 13",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67ceb7eca80c31f8cf4bbc79"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d1615f379ce51919546c0b"
+  },
+  "name": "Test 20",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67d162aa378bf786d06eb0fb"
+  },
+  "name": "Test 20",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67d162e5378bf786d06eb0fc"
+  },
+  "name": "Test 20",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67d1637b378bf786d06eb0fd"
+  },
+  "name": "Test 20",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67d17d9f378bf786d06eb0fe"
+  },
+  "name": "Test 21",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": []
+},
+{
+  "_id": {
+    "$oid": "67d17dbf378bf786d06eb0ff"
+  },
+  "name": "Test 21",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67d17e67378bf786d06eb100"
+      },
+      "username": "Test 6",
+      "comment": "shape",
+      "stars": 3
+    },
+    {
+      "_id": {
+        "$oid": "67d17f25378bf786d06eb101"
+      },
+      "username": "Test 7",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67d17f52378bf786d06eb102"
+  },
+  "name": "Test 21",
+  "town": "Ilford",
+  "rating": "3",
+  "reviews": [
+    {
+      "_id": {
+        "$oid": "67d17f52378bf786d06eb103"
+      },
+      "username": "Test 7",
+      "comment": "shape",
+      "stars": 3
+    }
+  ]
+}]

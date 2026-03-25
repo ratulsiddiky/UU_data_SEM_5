@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Wireframe - Nature Photography</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 2px dashed #ccc;
+            margin-bottom: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            border: 1px dashed #aaa;
+            border-radius: 5px;
+        }
+        
+        .wireframe-element {
+            background: #e9e9e9;
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 3px;
+        }
+        
+        .header-elements, .gallery-grid, .footer-columns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .logo {
+            flex: 1;
+            min-width: 200px;
+            background: #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .nav-item {
+            padding: 8px 15px;
+            background: #ccc;
+            margin: 0 5px;
+        }
+        
+        .hero {
+            height: 300px;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .gallery-item {
+            flex: 1 1 30%;
+            min-width: 200px;
+            height: 150px;
+            background: #d9d9d9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+        
+        .about-content {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .about-text, .about-image {
+            flex: 1;
+            min-height: 200px;
+            background: #e0e0e0;
+            padding: 15px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            background: #f0f0f0;
+            border: 1px solid #ccc;
+            margin: 5px 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+            background: #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .annotation {
+            background: #fffacd;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 3px solid #ffeb3b;
+            font-size: 0.9em;
+        }
+        
+        .mobile-view {
+            display: none;
+            max-width: 400px;
+            margin: 20px auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 10px;
+            background: white;
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-view {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Website Wireframe: Nature Photography Portfolio</h1>
+        
+        <div class="annotation">
+            <strong>Teaching Tip:</strong> Explain that wireframes are like blueprints for websites - they show structure without design details.
+        </div>
+        
+        <!-- Header Section -->
+        <div class="section">
+            <h2>Header Section</h2>
+            <div class="header-elements">
+                <div class="logo wireframe-element">Logo: NatureScapes</div>
+                <div style="display: flex; align-items: center;">
+                    <div class="nav-item">Home</div>
+                    <div class="nav-item">Gallery</div>
+                    <div class="nav-item">About</div>
+                    <div class="nav-item">Contact</div>
+                </div>
+            </div>
+            
+            <div class="annotation">
+                <strong>Student Activity:</strong> Ask students to sketch alternative navigation layouts (e.g., hamburger menu for mobile).
+            </div>
+        </div>
+        
+        <!-- Hero Section -->
+        <div class="section">
+            <h2>Hero Section</h2>
+            <div class="hero wireframe-element">
+                <div style="text-align: center;">
+                    <h3>Hero Image Placeholder</h3>
+                    <p>Large background image with text overlay</p>
+                    <button class="btn">View Gallery</button>
+                    <button class="btn">Get In Touch</button>
+                </div>
+            </div>
+            
+            <div class="annotation">
+                <strong>Teaching Point:</strong> Discuss the purpose of hero sections - to immediately communicate the site's purpose and guide users.
+            </div>
+        </div>
+        
+        <!-- Gallery Section -->
+        <div class="section">
+            <h2>Gallery Section</h2>
+            <div class="wireframe-element">
+                <h3>Section Title: Featured Photography</h3>
+                <p>Section description text would go here</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">Image 1</div>
+                <div class="gallery-item">Image 2</div>
+                <div class="gallery-item">Image 3</div>
+                <div class="gallery-item">Image 4</div>
+                <div class="gallery-item">Image 5</div>
+                <div class="gallery-item">Image 6</div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 15px;">
+                <button class="btn">View Full Portfolio</button>
+            </div>
+            
+            <div class="annotation">
+                <strong>Student Activity:</strong> Have students plan different gallery layouts (grid, masonry, carousel).
+            </div>
+        </div>
+        
+        <!-- About Section -->
+        <div class="section">
+            <h2>About Section</h2>
+            <div class="about-content">
+                <div class="about-text wireframe-element">
+                    <h3>Our Story</h3>
+                    <p>Text content about the photography business...</p>
+                    <button class="btn">Learn More</button>
+                </div>
+                <div class="about-image wireframe-element">
+                    Photographer Image
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Section -->
+        <div class="section">
+            <h2>Contact Section</h2>
+            <div class="wireframe-element">
+                <h3>Get In Touch</h3>
+                <p>Contact form description</p>
+                
+                <div class="form-group">
+                    <div class="form-input">Your Name</div>
+                    <div class="form-input">Your Email</div>
+                    <div class="form-input" style="height: 100px;">Your Message</div>
+                    <button class="btn">Send Message</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="section">
+            <h2>Footer</h2>
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>NatureScapes</h4>
+                    <p>About text and social links</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <p>Navigation links</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <p>Service offerings</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <p>Contact details</p>
+                </div>
+            </div>
+            <div class="wireframe-element" style="text-align: center; margin-top: 15px;">
+                Copyright information
+            </div>
+        </div>
+        
+        <!-- Mobile View -->
+        <div class="mobile-view">
+            <h3>Mobile View Wireframe</h3>
+            <div class="wireframe-element" style="text-align: center; padding: 10px;">
+                Mobile Header (Logo + Hamburger Menu)
+            </div>
+            <div class="wireframe-element" style="height: 150px; margin: 10px 0; display: flex; align-items: center; justify-content: center;">
+                Hero Section
+            </div>
+            <div class="wireframe-element" style="height: 100px; margin: 10px 0; display: flex; align-items: center; justify-content: center;">
+                Gallery Item 1
+            </div>
+            <div class="wireframe-element" style="height: 100px; margin: 10px 0; display: flex; align-items: center; justify-content: center;">
+                Gallery Item 2
+            </div>
+            <div class="wireframe-element" style="height: 100px; margin: 10px 0; display: flex; align-items: center; justify-content: center;">
+                Gallery Item 3
+            </div>
+            <div class="wireframe-element" style="text-align: center; padding: 10px;">
+                Footer
+            </div>
+        </div>
+        
+        <!-- Teaching Notes -->
+        <div class="section">
+            <h2>Teaching Notes & Student Activities</h2>
+            
+            <div class="annotation">
+                <h3>Wireframing Principles to Teach:</h3>
+                <ul>
+                    <li>Focus on layout and structure, not visual design</li>
+                    <li>Consider user flow and navigation</li>
+                    <li>Plan for different screen sizes (responsive design)</li>
+                    <li>Use consistent spacing and alignment</li>
+                    <li>Prioritize content hierarchy</li>
+                </ul>
+            </div>
+            
+            <div class="annotation">
+                <h3>Student Exercises:</h3>
+                <ol>
+                    <li>Sketch a wireframe for a personal portfolio website</li>
+                    <li>Create a wireframe for a local business website</li>
+                    <li>Redesign the navigation for mobile devices</li>
+                    <li>Plan a website with a different layout (one-page vs multi-page)</li>
+                    <li>Add annotations explaining design decisions</li>
+                </ol>
+            </div>
+            
+            <div class="annotation">
+                <h3>Discussion Questions:</h3>
+                <ul>
+                    <li>Why is wireframing important before coding?</li>
+                    <li>How does wireframing help with client communication?</li>
+                    <li>What elements are essential in every website wireframe?</li>
+                    <li>How do you decide what content to prioritize?</li>
+                    <li>What are the challenges of mobile-first wireframing?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

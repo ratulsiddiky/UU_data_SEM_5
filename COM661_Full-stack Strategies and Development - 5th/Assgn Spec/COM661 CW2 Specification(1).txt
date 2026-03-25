@@ -1,0 +1,73 @@
+COM661 Full Stack Strategies and Development
+SEMESTER 2, 2025-2026
+Assignment 2
+“Individual Full Stack Application Development – Front End”  
+Over the course of the module, we construct the Biz Directory - a sample full stack application built around a database containing information on a range of businesses and a collection of user-contributed reviews.  This assignment tests your understanding of this material by having you build the front-end of your own full stack application, based around the API and database that you developed for CW1.
+Your submission can be in any field but must be a web-based Angular application. You do not need to use all of the functionality provided in your API and you can extend the API functionality if it helps the front-end, but only the front-end application will contribute to the mark.
+The primary focus should be on usability and functionality.  The application should fulfil a well-defined need and should provide a quality user experience.
+Learning Outcomes Assessed
+This assignment addresses all module learning outcomes.
+Marking Criteria
+Submissions will be marked according to the following criteria
+* Usability of the front-end application
+* Demonstration of a range of Angular directives	
+* Integration with the API with appropriate transfer of data between front- and back-end
+* Use of individual user accounts and appropriate authentication
+* Evidence of automated application testing
+* Code structure and presentation
+* Provision of appropriate documentation	
+This assignment is worth 50% of the total mark for the module.
+Effort
+This assignment has a total notional workload of 20 hours.
+Submission
+The deadline for submission is 12pm (Noon) on Friday 1st May 2026.  All work should be submitted to the CW2 Submission link in the Assessment area of Blackboard and should consist of the following elements:
+* Zip file containing all code files for the front-end application.
+Note: Please delete the node_modules folder from your front-end application before creating the Zip file – but ensure that your package.json file contains all instructions needed to re-build the application
+* A video submission that (i) introduces your application area, (ii) demonstrates your application in a Web browser, and (iii) provides a walkthrough of your code. The maximum length of the video is 5 minutes.  
+
+Please note the following penalty for exceeding workload which will be applied for videos that exceed the maximum length:
+Ref: https://www.ulster.ac.uk/learningenhancement/cqe/assessment-code-of-practice/penalties-for-exceeding-assessment-limits 
+“Where submitted work exceeds the agreed assessment limit, a margin of up to +10% of the work limit will be allowed without any penalty of mark deduction.
+If the work submitted is significantly in excess of the specified limit (+10%), there is no expectation that staff will assess the piece beyond the limit or provide feedback on work beyond this point. Markers will indicate the point at which the limit is reached and where they have stopped marking. A mark will be awarded only for the content submitted up to this point. No additional deduction or penalty will be applied to the overall mark awarded. The student is self-penalising as work will not be considered/marked.”
+* A PDF file containing code listings for the front-end application files that you have developed or modified (you do not need to provide listings of files that are part of the Angular application structure that you have not modified)
+* Separate PDF files containing 
+o a summary of all API endpoints used and identifying any endpoints that have been added or modified since submission of CW1
+o application testing summary 
+o application documentation (Note: if documentation has been created using Compodoc, the documentation folder in the application code can substitute for a separate PDF copy.)
+* A completed self-evaluation sheet on which you provide a critical appraisal of your submission against a range of marking criteria.
+A video demonstrating the preparation of a submission pack for the sample Biz Directory Application will be made available on Blackboard.
+Marking Scheme
+You should be able to judge the level of your submission by reference to the following criteria.  Note that the Biz Directory example referred to here, relates to the state of the application at the end of Practical FE18. Please note that a detailed rubric and marking guide is provided at the end of this document.
+ClassificationCriteria1st Class (70%+)The application will be fit-for-purpose and usable for the intended task.  Functionality will be significantly in excess of that demonstrated by the Biz Directory example. The application will be robust with appropriate validation and authentication and will be free from bugs.2:1 (60-69%)The application will have a level of functionality above that of the Biz Directory example but there may be minor functionality deficiencies that prevent it from being truly fit for the intended purpose.  The application should be free from major bugs that prevent elements of functionality from running properly.2:2 (50-59%)The application will be similar to the Biz Directory example in terms of working functionality and structure but will suffer from bugs or performance issues that prevent it from being a usable application.  There will be at least some evidence that the developer has attempted to extend the basic functionality.  3rd (40-49%)The application will be heavily influenced by the Biz Directory example, with extended re-use of code without modification or addition.  There will have been no visible attempt to enhance the functionality and there may be significant bugs that prevent it from working properly.Fail (<40%)The application will suffer from major bugs that prevent it from being properly examined.  There will have been no attempt to enhance functionality from the Biz Directory exampleFeedback
+Individual feedback on each final submission will be provided in written form under the categories presented in the marking criteria above.  
+Feedback on submissions will be returned within 20 working days after submission in accordance with Faculty policy.
+IMPORTANT – NOTE ON API USE AND LINK TO CW1
+The expectation is that you will use your API developed for CW1, but this is not mandatory. If you are unhappy with the quality of your CW1 submission or feel that your CW2 application would be better served by a different data source, then this is permitted. To summarise, the following alternatives are available
+1) Use your existing API “as is” without modification or extension. This is the preferred option since all your effort can be concentrated on the front-end application.
+2) Extend or enhance your existing API to provide additional functionality that enables you to provide a more functional front-end application. In this case, please note that ONLY the front-end application will contribute to the mark and the modified API will not be assessed.
+3) Use a commercial/3rd party API. As only the Angular front-end application is assessed, then any API not developed by you can be used, but bear in mind that the most suitable APIs will be those that allow you to add and edit data as well as simply retrieve from a data source.
+4) A JSON data source. In the most extreme case where no back-end API is available, then a static JSON file can be used. In this case,  the front-end application MUST be structured as though the database is accessed through an API, but the Data Service component will manipulate a static JSON file rather than make an API call.
+NOTE. If you intend to use Options 3 or 4 above, then please contact me for advice on how to best present your submission. Please bear in mind that these options should only be considered if your CW1 submission is unusable.
+Plagiarism Statement 
+By making a submission, you will be deemed to have made the following declaration of ownership.  
+“I declare that this is all my own work. Any material I have referred to has been accurately referenced and any contribution of Artificial Intelligence technology has been fully acknowledged. I understand the importance of academic integrity and have read and understood the University’s General Regulation: Student Academic Integrity and the Academic Misconduct Procedure. I understand that I must not upload my work before, during or after submission to any unapproved plagiarism detectors or answer sharing platforms, or equivalent, and that only University-approved platforms should be used.”
+
+Coursework 2 – ASSESSMENT RUBRIC/MARKING PROFORMA
+Criteria
+(100%)0-29%
+fail30-39%
+fail40-49%
+3rd50-59%
+2.260-69%
+2.170-79%
+1st80-100%
+High 1stUse of Angular
+20%No or minimal front-end application providedLevel of Angular app is less than that of the demonstration applicationBasic Angular components that follow the structure of that provided in the demonstration applicationMinimal extensions from the demonstration applicationSome significant extensions but potentially containing bugs or exhibiting deficienciesUse of additional components to support (e.g.) searching, filtering, etc.Complex functionality demonstrating deep understanding and exceeding the level of the module material. Application Structure
+20%None or minimal application implemented.Application is at a level less than the demonstration app.Structure of the demonstration app is replicated for a different datasetAddition component and/or service implementedMultiple additional components/
+services. Significant additional functionality from the demonstration applicationLevel of the application far exceeds that of the demonstration. Code is professionally presented and structured.Communication with Back-end
+30%None or minimal attempt at provision of endpoints.Only retrieval of data supportedCommunication with the back-end matches the level of the demonstration app One additional HTTP request type provided (PUT or DELETE).All 4 HTTP request types implementedFlexible requests supported, e.g. using querystring or request header parametersLevel of the application far exceeds that of the demonstration. Integration of front-end and back-end authenticationUsability
+20%None or minimal front-end functionality.An attempt at a basic front-end, but some key functionality missing or not working.Basic retrieval and display of data, but no provision for add/edit/delete or search.Front-end is present but is essentially the that from the demonstration application re-engineered for a new API and dataset.Provision of some additional functionality (e.g., PUT and DELETE operations, improved search/pagination etc.) but some accessibility issues. Comprehensive front-end provision at a level greater than that provided by the demonstration application. A front-end application with a level of functionality well in advance of the demonstration application and which is immediately usable for the stated purpose.Submission Package
+10%No supporting documents provided.Multiple supporting documents missing.One supporting document missing.All elements submitted, but multiple deficiencies (e.g., coverage of testing and documentation, lack of detail in the video).All elements submitted but one exhibits some deficiency.All elements submitted to a good standard.Evidence of exceptional attention to detail in testing, documentation and/or video presentation.
+
+
+

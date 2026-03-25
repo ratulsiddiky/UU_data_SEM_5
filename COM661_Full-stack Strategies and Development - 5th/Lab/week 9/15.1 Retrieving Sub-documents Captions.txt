@@ -1,0 +1,176 @@
+1
+00:00:02,140 --> 00:00:08,680
+In this video, we'll add the display of customer review sub-documents to each page of business information.
+
+2
+00:00:12,650 --> 00:00:20,840
+Now, our Json data doesn't contain any reviews at present, so we'll add functionality to our App Component to generate them as the application loads.
+
+3
+00:00:21,740 --> 00:00:25,100
+So we'll import the BusinessData Service and add it to the list of providers,
+
+4
+00:00:31,080 --> 00:00:35,670
+we'll inject the Service into the App Component, by providing it as the parameter to the constructor,
+
+5
+00:00:38,520 --> 00:00:42,690
+and then we specify an ngOnInit() method that will run as the application loads,
+
+6
+00:00:43,890 --> 00:00:49,350
+and we'll call a new BusinessData Service function called populateReviews(), which we'll create now.
+
+7
+00:00:57,450 --> 00:01:00,450
+So in our BusinessData Service populateReviews() function,
+
+8
+00:01:04,560 --> 00:01:07,560
+we'll use Lorem Ipsum again as the content for the review,
+
+9
+00:01:11,790 --> 00:01:23,900
+we'll create a dummy review object, and then we make a call to the getLoremIpsum() function to request a paragraph of random text.
+
+10
+00:01:30,160 --> 00:01:38,350
+Then in the subscription function, which we'll take the text object of the response and assign that to the local and variable.
+
+11
+00:01:39,490 --> 00:01:50,380
+Now for each business element in our JSON data collection, we'll generate a random number of reviews
+
+12
+00:01:53,380 --> 00:02:06,810
+that'll be between 0 and 9. And then for each review required, we'll generate some random text.
+
+13
+00:02:18,730 --> 00:02:24,010
+So the length of the review in characters will be a random value between 10 and 300,
+
+14
+00:02:27,780 --> 00:02:32,340
+and we'll start taking text from the Lorem Ipsum string at a random position within it
+
+15
+00:02:33,490 --> 00:02:39,010
+making sure that we leave room to retrieve the number of characters described in the textSize variable.
+
+16
+00:02:47,280 --> 00:02:53,610
+And then for our dummy review, we'll generate a random username,
+
+17
+00:03:11,710 --> 00:03:19,300
+the comment field of the review will be a slice from the Lorem Ipsum text starring at textStart
+
+18
+00:03:20,740 --> 00:03:23,740
+and going on to position textStart plus textSize,
+
+19
+00:03:27,670 --> 00:03:32,920
+and the stars rating of the random review will be a random number in the range 1 to 5.
+
+20
+00:03:41,180 --> 00:03:46,310
+Then we'll push that dummy review onto the reviews collection of the current business.
+
+21
+00:03:51,300 --> 00:03:55,080
+Now we can see that we're getting an error indication on that dummyReview variable,
+
+22
+00:03:58,740 --> 00:04:01,950
+and that's because in our data collection, all of the reviews are empty
+
+23
+00:04:02,730 --> 00:04:07,320
+so TypeScript assumes that's always going to be the case and assigns it a type of never.
+
+24
+00:04:08,250 --> 00:04:16,020
+Now we can easily get around that by choosing one of the businesses in the collection and adding a random review so that they're not now all empty.
+
+25
+00:04:18,120 --> 00:04:25,690
+So provide a username, a comment, and a stars rating... and TypeScript will now realise the reviews element is not always empty,
+
+26
+00:04:26,320 --> 00:04:30,160
+and if we look back at the BusinessData Service, that error indication has gone.
+
+27
+00:04:34,560 --> 00:04:43,530
+So now in our Business Component TypeScript file, we log the set of reviews to the console just to be sure they're being generated.
+
+28
+00:04:52,560 --> 00:04:59,340
+Now we can run the application and check that... and if we look in the browser.
+
+29
+00:04:59,340 --> 00:05:05,150
+console we can see an array of 8 reviews,
+
+30
+00:05:06,520 --> 00:05:15,160
+and we can expand that and see the username, content and stars value for each... and we see that the usernames are all of the same user
+
+31
+00:05:15,340 --> 00:05:18,400
+so there's obviously a problem there. And in the code,
+
+32
+00:05:20,940 --> 00:05:24,780
+we should have multiplied by 9999, not added it...
+
+33
+00:05:25,500 --> 00:05:29,520
+and actually we've made the same error in the star fields, so we'll fix that,
+
+34
+00:05:32,090 --> 00:05:36,680
+check it again, and this time the reviews look correct.
+
+35
+00:05:42,480 --> 00:05:48,410
+So, now that we know the reviews are there, we can go to the HTML template and display them.
+
+36
+00:05:52,050 --> 00:06:00,560
+So still inside that @for block, we'll add a new Bootstrap row and we'll push it down a bit from the content above.
+
+37
+00:06:00,620 --> 00:06:15,150
+Inside the row, we have a single Bootstrap column that spans the entire row width
+
+38
+00:06:19,140 --> 00:06:24,390
+and then using a @for block, we'll iterate across the collection of reviews for that business.
+
+39
+00:06:27,760 --> 00:06:33,550
+So each review will be displayed in a Bootstrap Card and we'll use the light background this time,
+
+40
+00:06:38,930 --> 00:06:43,100
+each card will have a header in which we display the username property.
+
+41
+00:06:49,090 --> 00:06:56,680
+The card will also have a body where we show the comment property as the random Lorem Ipsum text,
+
+42
+00:06:59,570 --> 00:07:05,450
+and in the footer we'll show the business rating provided by that review.
+
+43
+00:07:09,780 --> 00:07:11,400
+So now we can check that in the browser
+
+44
+00:07:14,040 --> 00:07:21,030
+and we see that for each business, we've generated a random collection of reviews and displayed them as part of the business information.
+
