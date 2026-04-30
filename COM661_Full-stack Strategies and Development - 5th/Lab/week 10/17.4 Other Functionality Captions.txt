@@ -1,0 +1,76 @@
+1
+00:00:02,440 --> 00:00:10,420
+In this video, we'll identify other opportunities to use our Web Service to enhance the communication between the front and the back end.
+
+2
+00:00:13,660 --> 00:00:16,540
+On the page that allows us to navigate through the collection of businesses
+
+3
+00:00:17,440 --> 00:00:25,090
+we have a message that shows us where we are in the collection, by telling us the current page and the number of pages available.
+
+4
+00:00:30,160 --> 00:00:37,360
+This message is made available by the Business Data Service method getLastPageNumber() that uses the size of the
+
+5
+00:00:37,360 --> 00:00:42,940
+collection and the number of businesses per page to calculate the number of the last page in the set.
+
+6
+00:00:44,760 --> 00:00:48,450
+Now, this is something that we can't do with the current version of the API
+
+7
+00:00:49,640 --> 00:00:53,150
+as we don't have any endpoints to return information about the collection.
+
+8
+00:00:55,100 --> 00:01:00,410
+To provide this, we could add a new endpoint that returns information about the collection,
+
+9
+00:01:00,800 --> 00:01:06,410
+such as the size, the number of different types of business, the number of locations, and so on,
+
+10
+00:01:07,870 --> 00:01:15,910
+or you could restructure the getBusinesses() endpoint to return not only the list of businesses, but also general information about the collection,
+
+11
+00:01:16,600 --> 00:01:23,080
+that might include the size... and we leave it to you to implement those as you require in your applications.
+
+12
+00:01:26,430 --> 00:01:34,740
+Another possibility is to modify the front end so that it can provide the JSON Web Token that should be required in order to post a review.
+
+13
+00:01:40,100 --> 00:01:47,270
+Now, the way in which we can do this is to provide a front end interface that makes a call to a back-end login endpoint.
+
+14
+00:01:50,170 --> 00:01:58,450
+If we subscribe to the Observable returned by the login endpoint, we can accept the JSON Web Tokens provided and store it in browser storage.
+
+15
+00:01:59,730 --> 00:02:03,990
+Then, when we want to make a request to an endpoint that needs the JSON Web Token,
+
+16
+00:02:04,470 --> 00:02:08,970
+we can fetch it from browser storage and add it to the header of the HTTP request...
+
+17
+00:02:10,740 --> 00:02:16,770
+and you can see here how we added the API key to the header of the request for Lorem Ipsum content,
+
+18
+00:02:18,390 --> 00:02:24,960
+and you can use that technique to send the JSON Web Token as part of the header in requests to our own API.
+
+19
+00:02:26,160 --> 00:02:30,270
+And again, we leave that for you to implement in your own applications.
+
